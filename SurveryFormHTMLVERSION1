@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <h1 id="title">Enter your information for product updates!</h1>
+  </head>
+    <body>
+
+<p id="description">We will contact you for new updates on the product.</p>
+<form id="survey-form">
+
+  <input id="email" required type="email" placeholder="email">Please enter email</input>
+
+  <input id="number" min="1" max="100" type="number" placeholder="number">Please enter a phone number</input>
+
+  <input id="name" placeholder="name" required></input>
+
+  <input type="radio" value="1" name="1.0"><input>
+  <input type="radio" value="2" name="1.0"></input>
+
+<input type="checkbox" value="11"></input>
+
+<input type="checkbox" value="22"></input>
+  
+<textarea></textarea>
+
+<input id="submit" type="submit">Submit when done.</input>
+  <select id="dropdown">
+    <option>1</option>
+    <option>2</option>
+  </select>
+
+
+  <label id="name-label">Describes the input<label>
+  <label id="email-label">Describes the input</label>
+  <label id="number-label">Describes the input</label>
+</form>
+    </body>
+
+  </html>
